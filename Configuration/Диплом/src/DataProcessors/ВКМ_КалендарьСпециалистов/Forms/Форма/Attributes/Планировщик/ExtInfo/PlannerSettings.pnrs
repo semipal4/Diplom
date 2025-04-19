@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planner:PlannerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:planner="http://g5.1c.ru/v8/dt/planner/model">
+  <items>
+    <value xsi:type="core:UndefinedValue"/>
+    <begin>2024-11-05T01:00:00</begin>
+    <end>2024-11-05T04:00:00</end>
+    <text>Встреча</text>
+    <font xsi:type="core:AutoFont"/>
+    <replacementDate>0001-01-01T00:00:00</replacementDate>
+    <itemId>696e93fc-3b65-4835-b634-b74bc16abe89</itemId>
+  </items>
+  <alignItemBoundariesByTimeScale>true</alignItemBoundariesByTimeScale>
+  <showWrappedHeaders>true</showWrappedHeaders>
+  <showWrappedTimeScaleHeaders>true</showWrappedTimeScaleHeaders>
+  <showCurrentDate>true</showCurrentDate>
+  <wrappedTimeScaleHeaderFormat>
+    <key>#</key>
+    <value>DLF=&quot;DD&quot;</value>
+  </wrappedTimeScaleHeaderFormat>
+  <wrappedTimeScaleHeaderFormat>
+    <key>ru</key>
+    <value>DLF=&quot;DD&quot;</value>
+  </wrappedTimeScaleHeaderFormat>
+  <timeScaleWrapBeginIndent>8</timeScaleWrapBeginIndent>
+  <timeScaleWrapEndIndent>4</timeScaleWrapEndIndent>
+  <periodicVariantRepetition>24</periodicVariantRepetition>
+  <periodicVariantUnit>Hour</periodicVariantUnit>
+  <border xsi:type="core:BorderDef">
+    <style>Embossed</style>
+    <width>1</width>
+  </border>
+  <font xsi:type="core:AutoFont"/>
+  <beginOfRepresentationPeriod>0001-01-01T00:00:00</beginOfRepresentationPeriod>
+  <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>
+  <timeScale>
+    <placement>Left</placement>
+    <levels>
+      <measure>Hour</measure>
+      <interval>1</interval>
+      <show>true</show>
+      <line>
+        <width>1</width>
+        <style>Solid</style>
+      </line>
+      <dayFormatRule>MonthDayWeekDay</dayFormatRule>
+      <format>
+        <key>#</key>
+        <value>DF=&quot;HH:mm&quot;</value>
+      </format>
+      <format>
+        <key>ru</key>
+        <value>DF=&quot;HH:mm&quot;</value>
+      </format>
+      <labels/>
+      <showPereodicalLabels>true</showPereodicalLabels>
+    </levels>
+  </timeScale>
+  <periods>
+    <begin>2025-04-19T00:00:00</begin>
+    <end>2025-04-19T23:59:59</end>
+  </periods>
+  <itemsBehaviorWhenSpaceInsufficient>ShowAllItems</itemsBehaviorWhenSpaceInsufficient>
+  <fixDimensionsHeader>true</fixDimensionsHeader>
+  <fixTimeScaleHeader>false</fixTimeScaleHeader>
+</planner:PlannerSettings>
