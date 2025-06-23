@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fa367d5-0cb5-416d-9487-b0b20ce14697">
+  <producedTypes>
+    <selectionType typeId="5c13a4a0-8f7b-4e90-894e-cbbca42bb15f" valueTypeId="9065787e-1abc-45d7-89a3-4f6cc8ab40b1"/>
+    <listType typeId="f6a24a01-f26f-4fca-aaf5-406d3d3e4707" valueTypeId="fa44fe6d-6c83-4107-97d2-7db037a2f7c1"/>
+    <managerType typeId="895fd131-f260-4c1a-97e2-fd1f4397c0fc" valueTypeId="8d66b661-a6f8-49c7-8908-ebc930c1e361"/>
+    <recordSetType typeId="c7fbeb2f-9d05-4438-859b-7e49f9e3fd3a" valueTypeId="5ce2dea4-b5f5-4a10-a324-c19d9438328a"/>
+    <recordKeyType typeId="9ec573e1-8b79-4b15-a766-c896b039b11c" valueTypeId="754ff1a8-64c0-4b49-a9ab-bdd4218ab27c"/>
+    <recordType typeId="0f0a834c-7a1b-4dce-b7d8-4f2f7a756be8" valueTypeId="2b497ca8-5c7f-4379-9dd5-baceba9079f3"/>
+    <recordManagerType typeId="0db18c25-0778-4d63-8e62-ca751e0005c0" valueTypeId="a281ab1b-3872-4004-802a-b2af0ad577f2"/>
+  </producedTypes>
+  <name>ВКМ_ДанныеГрафика</name>
+  <synonym>
+    <key>ru</key>
+    <value>РегС - Данные графика (ВКМ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9c72a11e-8b9f-4b62-9206-2cd513903616">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="066f506b-67b0-4cbd-afa6-f7a119c6cc18">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

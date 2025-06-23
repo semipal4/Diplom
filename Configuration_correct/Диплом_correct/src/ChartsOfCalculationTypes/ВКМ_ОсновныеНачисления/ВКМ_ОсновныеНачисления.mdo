@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c8365ae-5cf2-443f-accc-f63d7d17e742">
+  <producedTypes>
+    <objectType typeId="31da480b-777b-4743-bbb8-9f96a5248d8f" valueTypeId="96faeb75-5d24-46e2-b341-c4380bebbed1"/>
+    <refType typeId="e37a6336-9d42-48c6-8da3-a2838be1baa4" valueTypeId="53fe1b29-e639-4851-9422-8389e49c1f4d"/>
+    <selectionType typeId="93c94470-7a49-485e-8b4f-f0e70bc85fe7" valueTypeId="6d436faf-ad3c-454f-8417-756dfa9aea48"/>
+    <listType typeId="8d152a39-9e8f-4e6c-9425-bb78e3d62569" valueTypeId="cb8cf7b8-bc43-4f58-9d57-ea1ee0ebd8c4"/>
+    <managerType typeId="5782ea6c-5af9-4041-b7a2-582b8e10018f" valueTypeId="c8638fa8-7d68-42f1-a17a-50ce27bbb932"/>
+    <displacingCalculationTypesType typeId="9c3fcdea-4376-4d69-b819-a212a82927d6" valueTypeId="3640b8df-c4a3-4e95-a5a9-8bf9dd325c48"/>
+    <displacingCalculationTypesRowType typeId="dba1d17b-08da-4d9d-8b97-9b0d02b2d818" valueTypeId="d79a36af-caec-48d5-bed3-51e922030a2f"/>
+    <baseCalculationTypesType typeId="db68b8cf-c46c-4150-ba6d-e7115c5ba71d" valueTypeId="41ed5059-e91e-40eb-8db0-35bf5ecbd9df"/>
+    <baseCalculationTypesRowType typeId="c761682c-0bcc-4586-b016-0cd6cdd66849" valueTypeId="11f9777f-40c4-446d-aea2-bd661b34ca27"/>
+    <leadingCalculationTypesType typeId="bef14322-9f3e-4eba-8a6d-8a438a99cb27" valueTypeId="24d84762-8971-4311-be49-094e0efc1939"/>
+    <leadingCalculationTypesRowType typeId="8d827d70-1007-4ac8-91df-00032766ddab" valueTypeId="ffc06994-1585-4aab-a954-6e0ba2717a36"/>
+  </producedTypes>
+  <name>ВКМ_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПВР - Основные начисления (ВКМ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>ПВР - Основные начисления (ВКМ)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>ПВР - Основные начисления (ВКМ)</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
+  <predefined>
+    <items id="ed93b7c2-bf9b-4dcd-ad94-419e00ca8436">
+      <name>Оклад</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
+    </items>
+    <items id="9443d79f-103f-402f-9aa7-b6479f6bb2cc">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПремияСВыработки</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</base>
+      <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</leading>
+      <leading>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПремияСВыработки</leading>
+      <leading>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</leading>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

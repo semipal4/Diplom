@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fe17127-8873-4546-86d4-a4dbe1473e49">
+  <producedTypes>
+    <managerType typeId="112375c8-253c-4be3-aaba-86b6cab7c862" valueTypeId="48bc1ebf-fc7f-4c5d-adaf-f8fe0beac113"/>
+    <valueManagerType typeId="efa8049c-48b7-4daf-a9c9-9178e0b30d9b" valueTypeId="e29e67e3-0faa-44b0-b6c6-4c8b74c40447"/>
+    <valueKeyType typeId="5195d477-192d-47db-9417-d80eef757a00" valueTypeId="4078c073-f161-4bb5-b2d4-cff56f2cd1d5"/>
+  </producedTypes>
+  <name>ВКМ_НоменклатураАбонентскаяПлата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конст - Номенклатура абонентская плата (ВКМ)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceParameters>
+    <name>Отбор.ПометкаУдаления</name>
+    <value xsi:type="core:BooleanValue"/>
+  </choiceParameters>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

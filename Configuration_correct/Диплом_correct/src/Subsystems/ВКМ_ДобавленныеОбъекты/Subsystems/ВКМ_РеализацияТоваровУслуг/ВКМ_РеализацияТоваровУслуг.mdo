@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49b82cfa-350b-4222-ac9d-432790c9e0a3">
+  <name>ВКМ_РеализацияТоваровУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ реализация товаров услуг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>68b15002-666f-4a78-a7a1-706245d2ce63</content>
+  <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

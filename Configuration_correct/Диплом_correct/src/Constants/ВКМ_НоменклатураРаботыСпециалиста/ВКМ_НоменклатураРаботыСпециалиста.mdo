@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cb3cf4f-4933-4959-94c8-70e7e9ed3987">
+  <producedTypes>
+    <managerType typeId="e1b400f5-7194-4736-b0fa-3755dc1da6a4" valueTypeId="64a3fc6a-49f0-4eaf-9078-0f5f5125f388"/>
+    <valueManagerType typeId="2bc0e00e-96f5-4a65-966e-9f21be02d995" valueTypeId="a2980281-4f18-4c1d-aaab-4cb0de9f6f7b"/>
+    <valueKeyType typeId="0bc1fe69-ae6f-4b5c-b53c-a9709243032e" valueTypeId="e63e08d8-794c-4799-a692-182cb651c2c1"/>
+  </producedTypes>
+  <name>ВКМ_НоменклатураРаботыСпециалиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конст - Номенклатура работы специалиста (ВКМ)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceParameters>
+    <name>Отбор.ПометкаУдаления</name>
+    <value xsi:type="core:BooleanValue"/>
+  </choiceParameters>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
