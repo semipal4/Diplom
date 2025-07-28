@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eb61659-7ad2-4819-8d65-8ab5b3b586b7">
+  <producedTypes>
+    <objectType typeId="6d7c0d33-1d48-45ae-980e-2ec4476e9bd6" valueTypeId="4256a058-648a-4c56-909a-03a2bc007422"/>
+    <managerType typeId="f927a3e7-541a-41cb-b2a3-85f038bbb4e3" valueTypeId="c4ce5c77-1ab2-442b-867c-cea9bd97c1fe"/>
+  </producedTypes>
+  <name>ВКМ_РасходЗапланированныхОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отч - Расход запланированных отпусков (ВКМ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВКМ_РасходЗапланированныхОтпусков.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ВКМ_РасходЗапланированныхОтпусков.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.ВКМ_РасходЗапланированныхОтпусков.Form.ФормаНастроек</defaultSettingsForm>
+  <forms uuid="fdcc4668-9638-4bbb-99bb-7a6f7f0a8b0d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6a30f089-2b9d-455f-9469-a3bd9b6aa421">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="935cdfa6-8d26-4151-b337-724a0d842853">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

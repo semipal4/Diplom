@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиента</subsystems>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_РеализацияТоваровУслуг</subsystems>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_КадрыЗарплата</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

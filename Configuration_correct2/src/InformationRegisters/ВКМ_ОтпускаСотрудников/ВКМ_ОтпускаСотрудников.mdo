@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="beeed55d-e238-4835-96e3-449e0d2aad0e">
+  <producedTypes>
+    <selectionType typeId="909d93d7-8965-4aea-aebf-cb6f87f77cc6" valueTypeId="97a9ad7d-695e-4b46-9e64-b07aad502f5d"/>
+    <listType typeId="c6c9b987-94b3-4d35-8038-2d13b5684f35" valueTypeId="38529ea6-a12f-45ab-991a-07d7c3f111f8"/>
+    <managerType typeId="284448e2-e2ef-404b-926e-d18b96744fd0" valueTypeId="884f5c00-0b3f-4e36-95c6-64ed2ead5ee9"/>
+    <recordSetType typeId="576eeb94-c648-47f5-9ac2-c787582a27c3" valueTypeId="6ec5175e-6e9f-4802-a90a-6dc3caeca80f"/>
+    <recordKeyType typeId="2ec208fd-0e35-448a-922c-e58754b1a409" valueTypeId="ac14756e-b217-42e6-ba00-5ffa4841e069"/>
+    <recordType typeId="06ca5fc4-cdb2-4d52-a420-c2c2c121e31c" valueTypeId="df0b8e4b-1e7b-44da-805c-f138fb8d910d"/>
+    <recordManagerType typeId="8bd14e2f-c6de-447e-93d8-890f4a78019f" valueTypeId="ee1949e5-5649-409f-a284-3d75dafadb10"/>
+  </producedTypes>
+  <name>ВКМ_ОтпускаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>РегС - Отпуска сотрудников (ВКМ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6345e09e-fbc3-40f1-8f98-eebbdc748671">
+    <name>ДнейОтпускаПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней отпуска план</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="059eeda0-e75f-45be-8948-a8c22309eb2f">
+    <name>ДнейОтпускаФакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней отпуска факт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="296ab18c-aa3d-4682-b9ae-62a31ceee6e4">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2a37160d-dd07-4f05-883d-faf041d53d7f">
+    <name>НачалоОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало отпуска</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a14b953b-c5a2-4ee1-9c22-13f4e33690a9">
+    <name>ОкончаниеОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание отпуска</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
